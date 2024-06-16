@@ -20,5 +20,13 @@ The approach taken for this solution involves creating a responsive React applic
 - Responsive design for both desktop and mobile views.
 - User input validation to prevent invalid entries.
 
+Desktop view
+![image](https://github.com/Inaksim/CarLeasingCalculator/assets/91840622/2a3624f2-7f9a-49a9-9265-96b29e267b9d)
+
+Mobile view
+![IMG_5104](https://github.com/Inaksim/CarLeasingCalculator/assets/91840622/18b71411-447d-4f6d-b2d9-5c8996830f90)
+
+
+
 
 
