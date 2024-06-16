@@ -1,0 +1,87 @@
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 45%;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="range"],
+.form-group input[type="number"],
+.form-group select {
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.leasing-details {
+    margin-top: 20px;
+}
+
+.leasing-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.details-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-column {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.details-column p {
+    margin: 0 0 10px;
+    font-size: 16px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .form-row {
+        flex-direction: column;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+
+    .details-row {
+        flex-direction: column;
+    }
+
+    .details-column {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
